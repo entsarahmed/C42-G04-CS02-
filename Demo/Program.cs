@@ -352,6 +352,33 @@
 
 
             #endregion
+
+
+            #region String Formatting
+
+            ////  Equation: 3 + 4 = 8
+
+            //int X = 3, Y = 4;
+
+            //string Message = "Equation: " + X + " + " + Y + " = " + (X + Y);
+
+            //// 1.  Composite Formatting 
+
+            //Message = string.Format("Equation: {0} + {1} = {2}",X,Y,(X,Y));
+
+
+            ////2. String Interpolation
+            ////$ : Manpulation Operator
+
+            ////Message = `Equation: ${X} + ${Y} = ${X+Y}`=>JS
+
+            //Message = $"Equation: {X} + {Y} = {X+Y}";
+
+            
+            //Console.WriteLine(Message);
+
+
+            #endregion
         }
     }
 }

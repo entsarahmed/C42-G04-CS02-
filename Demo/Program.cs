@@ -82,6 +82,19 @@
 
 
 
+            #region Fractions and Discard
+            //float X = 5.3F;
+
+            //double Y = 4.34;
+
+            //decimal Z = 9943.4M;
+
+            //// Discard => Just for Reabability
+            //long Number = 100_000_000_000;
+
+            //Console.WriteLine(Number); 
+            #endregion
+
 
 
 

@@ -95,6 +95,60 @@
             //Console.WriteLine(Number); 
             #endregion
 
+            #region Implicit Casting Vs Explicit Casting
+
+            #region example 01
+            //int X = 8;
+            //long Y = /*(long)*/ X; // 1. Implicit Casting
+
+            //Console.WriteLine(Y); //8
+
+
+
+            ////long X = 8;
+            ////X = 4354546576567;
+
+
+            ////int Y = X.GetType() == typeof(int) ? (int) X:0;    // 2. Explicit casting  [Unsafe  Casting]
+
+            ////Console.WriteLine(Y);
+            ///
+            ////checked
+            ////{
+            ////    int Y = (int)X; // 2. Explicit casting  [Unsafe  Casting]
+            ////    unchecked
+            ////    {
+            ////        Console.WriteLine(Y);   //8
+
+            ////    }
+            ////}
+
+            // Console.WriteLine(int.MaxValue); 
+            #endregion
+
+
+            #region example 02
+
+            //int x = 5;
+            //double y =/* (double) */ x;   //1.Implicit Casting
+            //Console.WriteLine(y);
+
+
+            double X = 5.5;
+
+            int Y = (int)X; //2. Explicit Casting
+
+            Console.WriteLine(Y);  // 5
+
+
+            #endregion
+
+
+
+
+
+            #endregion
+
 
 
 

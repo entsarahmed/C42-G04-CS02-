@@ -304,6 +304,20 @@
 
 
 
+            #region TryParse
+
+            ////string X = "10";
+            //string X = "Ahmed";
+            //int Y;
+            //bool flag = int.TryParse(X, out Y);  //if casting failed, No Exception will be thrown  
+
+            //Console.WriteLine(flag);  //true
+
+            //Console.WriteLine(Y);    //10 
+            #endregion
+
+
+
         }
     }
 }

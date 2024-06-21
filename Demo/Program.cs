@@ -2,9 +2,82 @@
 {
     internal class Program
     {
+        //Entry Point      --C# KeyWord small Case All
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+
+            #region Comments
+            // Single Line Comment
+            /**
+             * Multi
+             * Line
+             * Comment
+             * 
+             * 
+             *  */
+            #endregion
+
+
+
+            #region Variables Declaration
+            // PascalCase --> FirstName
+            // camelCase  --> firstName
+            // Kabab-case --> first-name   [Angular Files Naming]
+            // snake_case --> first_name
+
+            //Console.WriteLine(Id); 
+            #endregion
+
+
+            #region ValueType
+            int X;
+            // CLR willAllocate 4 UnInitialized Bytes at Stack
+            // int : C# Keyword
+
+            X = 5;
+
+            Int32 Y = 10;
+            // CLR will Allocate 4 UnInitialized Bytes at  Stack
+            // Int32 : BCL
+
+            Y = X; //5
+
+            X++;  //6
+
+            Console.WriteLine(Y);
+            #endregion
+
+
+            
+            
+           #region Reference Type
+            Point P1;
+            // Declare for Reference of type 'Point', Refering to Null
+            //This Reference 'P1' can Refer to an Object from type "Point" OR another type "Inherting From Point"
+            // CLR will Allocate 4 Bytes for the Reference at Stack
+            // CLR will Allocate 0 Bytes at Heap
+            // 
+             P1 = new Point(); // Has  2  Reference[P1,P2] (اسمين دلع);
+
+            //new 
+            /// 1. Allocate Required Number of Bytes in Heap (Object Size + CLR Overhead Variables)
+            /// 2. Initialize (cross out) Allocated Bytes with Default Value Of Its Datatype
+            /// 3. Call User-Defined Constructor if exists
+            /// 4. Assign The  Reference to a allocated Object
+
+            //Console.WriteLine(P1.X);// 0
+            //Console.WriteLine(P1.Y);// 0
+
+            Point P2 = new Point();/* Unreachable Object */
+            P2 = P1;
+
+             P2.X = 10;
+             Console.WriteLine(P1.X);
+
+            #endregion
+
+
         }
     }
 }

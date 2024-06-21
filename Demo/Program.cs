@@ -317,7 +317,41 @@
             #endregion
 
 
+            #region Operators Priorty [Precedence] and Asscoitivity
 
+            /*
+             1. Unary Operator (Prefix)
+             2. Round Braces ()
+             3. * / %
+             4. + -
+             
+             */
+
+            //int Equation = 4 + 3 * 8;
+
+            //Console.WriteLine(Equation); /// 28
+
+
+            //int a = 20;
+            //int b = 10;
+            //int c = 15;
+            //int d = 5;
+            //int equation;
+
+            //equation = (a + b) * c / d;   //(30 * 15) / 5
+
+            //equation = ((a + b) * c) / d;
+
+            //equation = (a + b) * (c / d); //(30) * (15/5)
+
+            //equation = a + (b * c) / d;   //20 + (150/5)
+
+
+
+
+
+
+            #endregion
         }
     }
 }

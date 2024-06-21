@@ -217,6 +217,91 @@
 
             #endregion
 
+            #region Unary Operators
+            // Unary Operators  => works on one operand (Variable)
+            //int x = 10;
+            //// 1. ++
+            ////1.1 Prefix [Increment and then print]
+            //Console.WriteLine(++x); //print 11
+            //                // 1.2 postfix  [Print and then Increment]
+            //Console.WriteLine(x++); //print 10
+
+            ////2. --
+            ////2.1 Prefix [Decrement and then print]
+            //Console.WriteLine(--x); //print 9
+            //                    //2.2 Postfix [print and then Decrement]
+            //Console.WriteLine(x--); // print 10
+            #endregion
+
+            #region Binary Operators
+            ////Unary Operators ==> works on Two Operands(Variables)
+            //int Sum, Mul, Div, Sub, Mod;
+            //int Num01 = 2, Num02 = 6;
+            //Sum = Num01 + Num02;
+            //Sub = Num02 - Num01;
+            //Mul = Num01 * Num02;
+
+            //Div = Num01 / Num02;
+            //Mod = Num02 % Num01;  //6 % 4 =2
+            #endregion
+
+            #region Assignment Operator
+            //int X;
+            //X = 4;
+            //X += 2; // X=X+2
+            //X -= 2; //X=X-2
+            //X *= 2; //X=X*2
+            //X /= 2; //X=X/2
+            //X %= 2; //X=X%2
+
+            #endregion
+
+
+            #region  Relational Operators [compersion]
+
+            //int X = 6, Y = 5;
+            //Console.WriteLine( X == Y); //Equal
+            //Console.WriteLine(X != Y); //Not Equal
+            //Console.WriteLine(X > Y); //More Than
+            //Console.WriteLine(X >= Y); //More Than or Equal
+            //Console.WriteLine(X < Y); //Less Than
+            //Console.WriteLine(X <= Y); /// Less Than or Equal
+            #endregion
+
+
+            #region Logical Operators
+            //Console.WriteLine(!false);
+            //Console.WriteLine(false && true); // Short Circuit
+            //Console.WriteLine(true || false);
+
+            //Console.WriteLine(4 < 5 && 7 < 9)
+            #endregion
+
+
+            #region Bitwise Operators
+            //Console.WriteLine(~0);
+            //Console.WriteLine(false & true);  //Long CirCuit
+            //Console.WriteLine(true | false);
+            //// Console.WriteLine(4 < 5 & 7 < 9);
+            #endregion
+
+
+
+            #region Ternary Operator [Conditional Operator]
+
+            //int X = 5, Y = 5;
+
+            //string Message = X > Y ? "X is more than Y" : X < Y? "X is less then Y":"X equals Y";
+            //if (X > Y)
+            //{
+            //    Message = "X is more than Y";
+            //}
+            //else if(X < Y)
+            //{
+            //    Message = "X is less then Y";
+            //}
+            #endregion
+
 
 
         }
